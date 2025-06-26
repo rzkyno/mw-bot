@@ -1,0 +1,1 @@
+worker: python mega_bot.py

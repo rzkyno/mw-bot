@@ -1,0 +1,10 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore token config
+config.py
+
+# Ignore system files
+.DS_Store
+.env

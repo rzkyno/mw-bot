@@ -7,7 +7,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 from apscheduler.schedulers.background import BackgroundScheduler
 
-TOKEN = os.getenv("BOT_TOKEN")
+from config import BOT_TOKEN
+TOKEN = BOT_TOKEN
 RIWAYAT_FILE = "riwayat.json"
 MAX_LEN = 500
 riwayat = deque(maxlen=MAX_LEN)
